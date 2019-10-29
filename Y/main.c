@@ -7,9 +7,10 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+#include "second File.h"
+int main()
+{
+   printf("since this is the second project file we wont be working in the main\n");
+    printf("so we will work in a seprate c file and header");
+    
 }
